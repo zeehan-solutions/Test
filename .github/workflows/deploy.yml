@@ -17,4 +17,4 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./  # The directory to deploy (root of your repo)
-          server-dir: /bonapi.reownlogics.com/  # The directory on your cPanel server
+          server-dir: /  # The directory on your cPanel server
