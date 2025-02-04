@@ -14,7 +14,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
+          username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./  # The directory to deploy (root of your repo)
           server-dir: /home/reownlogics/bonapi.reownlogics.com  # The directory on your cPanel server
